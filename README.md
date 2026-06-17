@@ -1,6 +1,6 @@
 # Cross-Vessel Transfer Learning for Electric-Ship Energy Prediction & Battery Lifecycle Assessment
 
-The experimentation code for the paper [**"Cross-Vessel Transfer Learning with Physics-Informed Constraints for Electric-Ship Energy Demand Prediction and Battery Degradation Analysis"**][paper] (IEEE/MTS OCEANS 2026, Monterey).
+The experimentation code for the paper [**"Cross-Vessel Transfer Learning with Physics-Informed Constraints for Electric-Ship Energy Demand Prediction and Battery Degradation Analysis"**][paper].
 
 ## Overview
 
@@ -128,15 +128,21 @@ far above transfer learning (**+0.001**, large domain gap) and augmentation
 
 ### Battery Degradation
 
+<p align="center">
+  <img src="fig/fig2_soh.png" width="480" alt="Projected 10-year NMC SOH under three charging strategies (tropical, 60,000 kWh)">
+</p>
+
 Only the 60,000 kWh battery sustains operation (peak 57,456 kWh). Aging is driven
 by temperature > chemistry >> strategy: NMC/tropical goes 86.9 % (fixed-full) →
 90.6 % (weather-adaptive) SOH over 10 years (+3.7 pp), vs LFP/cold at 97.7–98.3 %.
 
-![Projected 10-year NMC SOH under three charging strategies (tropical, 60,000 kWh)](fig/fig2_soh.png)
-
 > [!NOTE]
 > This repository contains only the experimentation code. For the full
 > methodology and detailed results, please refer to the [paper].
+
+## License
+
+Released under the [MIT License](LICENSE).
 
 <!-- TODO: replace # with the published paper URL once available. -->
 
