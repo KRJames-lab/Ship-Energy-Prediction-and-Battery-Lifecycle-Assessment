@@ -41,8 +41,6 @@ classical PINN.
 │   └── run_final_pipeline.py        # final report
 ├── tests/                           # unit tests
 ├── fig/                             # paper Fig. 2 (fig2_soh.png)
-├── Dataset/                         # (not tracked) FuelCast .parquet
-├── reports/                         # (not tracked) runtime output
 └── requirements.txt
 ```
 
